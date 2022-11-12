@@ -1,0 +1,74 @@
+header {
+    background-color:peru;
+    font-optical-sizing: 10px;
+    display: flex;
+    flex-wrap: wrap;
+min-width: 381px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header img {
+    width: 195px;
+    height: 115px;
+}
+header ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+
+}
+header ul li {
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color:darkred;
+    text-transform: uppercase;
+    font-style: unset;
+}
+.containerflex-2 {
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 50px;
+} 
+.containerflex-3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.containerflex-3 img {
+    width: 260px;
+    height: 290px;
+
+}
+.containerflex-3 ul {
+    list-style-type:circle;
+}
+.containerflex-2 h1 {
+    margin-top: 15px;
+    font-size: 32px;
+}
+.containerflex-2 h2 {
+    margin-top: 20px;
+}
